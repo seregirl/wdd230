@@ -1,0 +1,48 @@
+ @media  (min-width: 640px) {
+    header {
+        display: grid;
+        grid-template-areas:
+          'img img h1 h1 h1';
+        gap: 5px;
+        background-color: #0d0d35;
+        color: #FFFFFF;
+        
+        }
+    
+ }
+ 
+    nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 50px;
+        align-items: center;
+        
+        background-color: #000000;
+    }
+
+    nav a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .home-page {
+        background-color: #4e0a0a;
+        color: #FFFFFF;
+        height: auto;
+        align-items: center;
+    } 
+    .wdd{
+        text-align: center;
+        text-decoration: underline;
+    }
+/* @media screen (min-width: 640px)  */
+/* {
+    .card {
+        display: grid;
+        grid-templates-areas: 1fr 1fr 1fr 1fr;
+    } */
+    /* .card {
+        display: grid;
+        grid-template-areas: 1fr 1fr 1fr 1fr;
+        
+    }  */
+    
