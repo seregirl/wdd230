@@ -11,18 +11,18 @@
 </head>
 <body>
   <header>
-    <img src="images/IMG_20220111_083506_502.jpg" alt="Agatha's Image" width="300" height="300">
+    <img src="images/IMG_20220111_083506_502.jpg" alt="Agatha's Image" width="100" height="100">
     <h1>Agatha Odeh</h1>
   </header> 
   <nav>
-    <a class=home-page href="Home">Home</a>
+    <a class="active-page" href="Home">Home</a>
     <a href="chamber">Chamber</a>
     <a href="site plan">Site Plan</a>
     <a href="form">Form</a>
 </nav>
-  <main>
+  <main id="home-main">
     
-    <h2 class="wdd">WDD 230: Web Frontend Development</h2>
+    <h2 class="wdd-title">WDD 230: Web Frontend Development</h2>
     <section class="card">
         <h3>Learning Activities</h3>
         <ul>
@@ -37,12 +37,16 @@
     </section>
     <section class="card">
         <h3>Information</h3>
-
-    </section>
+        
+            <p>Benin City, Nigeria</p>
+            <p>35 C Sunshine</p>
+            <p>Page Visit 15</p>
+   </section>
   </main>
   <footer>
-    <p>&copy; [current year]: [Agatha Odeh]: [Nigeria]</p>
-    <p id="LastModified"></p>
+    <p>&copy; <span id="copyright-year">2021</span> <span>Agatha Odeh </span><span>Nigeria</span> </p>
+    <p id="LastModified"> Last Modification: 01/01/2012</p>
   </footer>
+  <script src="scripts/getDates.js"></script>
 </body>
 </html>
