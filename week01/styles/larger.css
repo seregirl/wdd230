@@ -15,6 +15,13 @@
         grid-template-rows: 50px;
         align-items: center;
     }
+    nav a {
+        display: block;
+        
+    }
+    #hamburger-menu {
+        display: none;
+    }
 
     #home-main {
         display: grid;

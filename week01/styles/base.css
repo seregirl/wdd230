@@ -20,13 +20,23 @@
         background-color: #000000;
     }
 
+    nav #hamburger-menu {
+        padding: 8px;
+    }
+
     nav a {
-        display: block;
+        display: none;
         text-align: center;
         padding: 8px;
         color: #FFFFFF;
         text-decoration: none;
     }
+
+    nav a.show-menu {
+        display: block;
+    }
+
+
     .active-page {
         background-color: #4e0a0a;
         color: #FFFFFF;
