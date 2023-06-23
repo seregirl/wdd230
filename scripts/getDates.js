@@ -1,15 +1,6 @@
 document.querySelector("#LastModified").innerHTML = "Last Modified: " + document.lastModified;
 document.querySelector("#copyright-year").innerHTML = new Date().getFullYear();
-// function navBar() {
-//     const nav = document.createElement('nav');
-//     if (nav.style.display === "block") {
 
-//         nav.style.display === "block"; 
-//     }
-//     else {
-//             nav.style.display = "X";
-//         }
-// }
 const hamburgerButton = document.querySelector("#hamburger-menu");
 const menuItems = document.querySelectorAll("nav a");
 hamburgerButton.addEventListener("click", function() {
@@ -39,6 +30,7 @@ modeButton.addEventListener("click", () => {
 		modeButton.textContent = "☑️";
 	}
 });
+
 
 // The hamburger button should only show in the mobile view.
 // Clicking the hamburger button toggles the main menu items from viewable to not viewable.
