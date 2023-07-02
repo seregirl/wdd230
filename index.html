@@ -1,70 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="WDD 230 - Web Frontend Development - Agatha Odeh - course assignment portal">
-    <meta name="author" content="Agatha Odeh">
 
-    <meta property="og:title" content="Benin Chamber of Commerce">
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://https://github.com/seregirl/wdd230">
-    <meta property="og:image" content="https://favicon.ico">
-    <meta property="og.url" content="https://codepen.io/agatha-okofu/pen/ExOgxqX">
-    <title>Agatha Odeh- WDD 230 - Web Frontend Development</title>
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css">
-    <link rel="icon" href="favicon.ico">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="WDD 230 - Web Frontend Development - Agatha Odeh - course assignment portal">
+  <meta name="author" content="Agatha Odeh">
+
+  <meta property="og:title" content="Benin Chamber of Commerce">
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://github.com/seregirl/wdd230">
+  <meta property="og:image" content="https://favicon.ico">
+  <meta property="og.url" content="https://codepen.io/agatha-okofu/pen/ExOgxqX">
+  <title>Agatha Odeh- WDD 230 - Web Frontend Development</title>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <link rel="icon" href="favicon.ico">
 </head>
+
 <body>
   <header id="mode">
     <img src="images/IMG_20220111_083506_502.jpg" alt="Agatha's Image" width="100" height="100">
     <h1>Agatha Odeh</h1>
-  </header> 
+  </header>
   <nav>
     <button id="hamburger-menu" class="">☰</button>
     <a class="active-page" href="Home">Home</a>
     <a href="chamber">Chamber</a>
     <a href="site plan">Site Plan</a>
     <a href="form">Form</a>
-</nav>
+  </nav>
   <main id="home-main">
-    <picture class="hero-img">
-      <source src="images/hero-small.webp" media="(max-width:400px)">
-      <source src="images/hero-medium.webp" media="(max-width:960px)">
-      <img src="images/hero-large.webp" alt="Aba Nigeria Temple" width="1500" height="750">
-  </picture>
-    
+    <div id="hero">
+      <picture class="hero-img">
+        <source src="./images/aba-nigeria-temple-lds-small.webp" media="(max-width:400px)">
+        <img src="./images/aba-nigeria-temple-lds-large.webp" alt="Aba Nigeria Temple" width="960" height="500">
+      </picture>
+
+      <div class="hero-label">
+        <h3>Aba Nigeria Temple</h3>
+      </div>
+    </div>
     <h2 class="wdd-title">WDD 230: Web Frontend Development</h2>
     <section class="card">
-        <h3>Learning Activities</h3>
-        <ul>
-            <li>Week 01: <a href="week01/holygrail.html">Grail</a> | <a href="#">Media Query</a> | <a href="week01/chamber-site-plan.html">Site Plan</a></li>
-            <li>Week 02: <a href="week02/design.html">Design</a> | <a href="#">Menu</a> | <a href="week02/bom.html">BOM</a></li>
-            <li>Week 03:  <a href="week03/images/landscape.webp"> WebP Image File Format </a> | <a href="week03/lazyload.html">Lazy Loading</a> | <a href="#">Responsive Images: srcset</a> | <a href="week03/week03bom.html">Web Storage API - localStorage</a></li>
-            <li>Week 04:</li>
-            <li>Week 05:</li>
-            <li>Week 06:</li>
-        </ul>
-      <a></a>  
+      <h3>Learning Activities</h3>
+      <ul>
+        <li>Week 01: <a href="week01/holygrail.html">Grail</a> | <a href="#">Media Query</a> | <a
+            href="week01/chamber-site-plan.html">Site Plan</a></li>
+        <li>Week 02: <a href="week02/design.html">Design</a> | <a href="#">Menu</a> | <a href="week02/bom.html">BOM</a>
+        </li>
+        <li>Week 03: <a href="week03/images/landscape.webp"> WebP Image File Format </a> | <a
+            href="week03/lazyload.html">Lazy Loading</a> | <a href="#">Responsive Images: srcset</a> | <a
+            href="week03/week03bom.html">Web Storage API - localStorage</a></li>
+        <li>Week 04:</li>
+        <li>Week 05:</li>
+        <li>Week 06:</li>
+      </ul>
+      <a></a>
     </section>
     <section class="card">
-        <h3>Information</h3>
-        
-            <p>Benin City, Nigeria</p>
-            <p>35 C Sunshine</p>
-            <p>Page Visit 15</p>
-        
-   </section>
-   <section>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.7566516873335!2d5.627373773577635!3d6.295677075602175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1040d3de39bcb0e3%3A0x2019520f749afae0!2s7%20Idusogie%20St%2C%20Oka%20300102%2C%20Benin%20City%2C%20Edo!5e0!3m2!1sen!2sng!4v1687972290715!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-   </section>
+      <h3>Information</h3>
+
+      <p>Benin City, Nigeria</p>
+      <p>35 C Sunshine</p>
+      <p>Page Visit: <span id="num-of-visits">5</span></p>
+
+    </section>
+    <section id="google-map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.7566516873335!2d5.627373773577635!3d6.295677075602175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1040d3de39bcb0e3%3A0x2019520f749afae0!2s7%20Idusogie%20St%2C%20Oka%20300102%2C%20Benin%20City%2C%20Edo!5e0!3m2!1sen!2sng!4v1687972290715!5m2!1sen!2sng"
+        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
   </main>
   <footer>
     <p>&copy; <span id="copyright-year">2021</span> <span>Agatha Odeh </span><span>Nigeria</span> </p>
     <p id="LastModified"> Last Modification: 01/01/2012</p>
   </footer>
   <script src="scripts/getDates.js"></script>
+  <script src="scripts/visits.js"></script>
 </body>
+
 </html>
