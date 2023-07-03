@@ -1,11 +1,8 @@
- /* @media  (min-width: 640px) {
-    
-    
- } */
- body {
-    font-family: Arial, Helvetica, sans-serif;
-  }
- header {
+header h1 {
+    text-align: center;
+}
+
+header nav {
     display: grid;
     grid-template-areas: 'img img h1 h1 h1';
     gap: 5px;
@@ -13,83 +10,74 @@
     color: #FFFFFF;
     padding: 15px;
     align-items: center;
-    }
- 
-    nav {
-        
-        background-color: #000000;
-    }
+}
 
-    nav #hamburger-menu {
-        padding: 8px;
-    }
+nav #hamburger-menu {
+    padding: 8px;
+} 
 
-    nav a {
-        display: none;
-        text-align: center;
-        padding: 8px;
-        color: #FFFFFF;
-        text-decoration: none;
-    }
+nav a.show-menu {
+   display: block;
+}
 
-    nav a.show-menu {
-        display: block;
-    }
+nav a {
+    display: none;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a.active-menu {
+    color: yellow;
+}
+
+#hero-section {
+    position: relative;
+    width: 100%
+}
+
+#hero-section button {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    border-radius: 10px;
+    background-color: #0d0d35;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+section.card {
+    border: 1px solid #929090;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+section.card div {
+    padding: 10px;
+}
+
+section.card h3 {
+    text-align: center;
+    background-color: #0d0d35;
+    color: #fff;
+    padding: 15px;
+    margin-top: 0;
+}
 
 
-    .active-page {
-        background-color: #4e0a0a;
-        color: #FFFFFF;
-        height: auto;
-        align-items: center;
-    } 
-    .wdd-title{
-        text-align: center;
-        text-decoration: underline;
-    }
+footer {
+    text-align: center;
+    background-color: #0d0d35;
+    color: #FFFFFF;
+    padding: 15px;
+}
 
-    section.card {
-        border: 1px solid #929090;
-        margin-bottom: 15px;
-        border-radius: 5px;
-    }
+footer p span {
+    display: block;
+    padding: 5px;
+}
 
-    section.card h3 {
-        text-align: center;
-        background-color: #0d0d35;
-        color: #fff;
-        padding: 15px;
-        margin-top: 0;
-    }
-    footer {
-        text-align: center;
-        background-color: #0d0d35;
-        color: #FFFFFF;
-        padding: 15px;
-    }
-    footer p span {
-        display: block;
-        padding: 5px;
-    }
-
-    footer #copyright-year {
-        display: inline;
-    }
-    .hero-img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-    
-/* @media screen (min-width: 640px)  */
-/* {
-    .card {
-        display: grid;
-        grid-templates-areas: 1fr 1fr 1fr 1fr;
-    } */
-    /* .card {
-        display: grid;
-        grid-template-areas: 1fr 1fr 1fr 1fr;
-        
-    }  */
-    
+footer #copyright-year {
+    display: inline;
+}

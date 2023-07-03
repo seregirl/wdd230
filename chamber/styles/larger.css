@@ -1,0 +1,43 @@
+@media screen and (min-width: 768px) 
+{
+    header {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 25px;
+    }
+
+    header img {
+        justify-self: end;
+    }
+
+    nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 50px;
+        align-items: center;
+    }
+    nav a {
+        display: block;
+        
+    }
+    #hamburger-menu {
+        display: none;
+    }
+
+    #chamber-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 15px;
+    }
+
+    #hero-section {
+        grid-column: 1/4;
+    }
+
+   section.event {
+    grid-column: 1/3;
+   }
+    
+}
+
+
+    

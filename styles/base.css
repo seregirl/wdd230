@@ -22,7 +22,11 @@
 
  nav #hamburger-menu {
      padding: 8px;
- }
+ } 
+ 
+ nav a.show-menu {
+    display: block;
+}
 
  nav a {
      display: none;
@@ -31,11 +35,6 @@
      color: #FFFFFF;
      text-decoration: none;
  }
-
- nav a.show-menu {
-     display: block;
- }
-
 
  .active-page {
      background-color: #4e0a0a;
