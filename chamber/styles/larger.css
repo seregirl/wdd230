@@ -19,6 +19,7 @@
         display: block;
         
     }
+    
     #hamburger-menu {
         display: none;
     }
@@ -28,6 +29,19 @@
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 15px;
     }
+
+    #discover-main {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 1.5rem;
+      }
+
+      .discover-places {
+        grid-column: 1/4;
+      }
+       /* {
+        grid-column: 1/4;
+      } */
 
     #hero-section {
         grid-column: 1/4;
