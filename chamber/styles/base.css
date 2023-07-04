@@ -103,20 +103,26 @@ section.card h3 {
   
   #featured-images {
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
+
+
   
   .image-card {
     margin-bottom: 2rem;
     box-shadow: 0 0 20px #BBB;
     border-radius: 8px;
     overflow: hidden;
+    width: 320px;
   }
   
-  
+/*   
   .image-card:last-child {
     margin-bottom: 1rem;
   }
-  
+   */
   .image-card img {
     width: 100%;
     transition: transform .5s;
