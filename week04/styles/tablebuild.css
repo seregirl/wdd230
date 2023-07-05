@@ -1,0 +1,36 @@
+
+
+table {
+	margin: 10px auto;
+	border: thin solid var(--border);
+	box-shadow: 0 0 10px var(--shadow);
+	border-collapse: collapse;
+    border-spacing: 2px;
+    text-indent: initial;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 1px solid black
+}
+
+thead {
+    background-color: black;
+    color: white;
+}
+
+thead tr:last-child th:not(:first-child){
+    background-color: lightgray;
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    color: var(--back);
+    font-size: .85rem;
+}
