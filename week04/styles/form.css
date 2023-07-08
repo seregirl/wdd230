@@ -1,0 +1,9 @@
+form label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+form input {
+    padding: 8px;
+    display: block;
+}

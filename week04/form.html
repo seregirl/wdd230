@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>HTML5 Start Site by Paul Cheney</title>
+    <meta name="author" content="John Doe">
+    <meta name="description" content="Fill Me In">
+    <link href="styles/form.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1>Course Proposal</h1>
+        <h2>Designing Web Forms</h2>
+    </header>
+    <nav>
+    </nav>
+    <main>
+        <form method="get" action="record.html" onsubmit="return checkForm()">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label class="top">Username*
+                    <input type="text" name="username" id="username" required>
+                </label>
+                <label class="top">Password*
+                    <input type="password" name="password" id="password" pattern="[A-Za-z0-9]{8,}" title="Must be at least eight (8) characters long and can only be alpha-numeric" required>
+                    <span></span>
+                </label>
+
+                <label class="top">Password Repeat*
+                    <input type="password" name="password2" id="password2" required>
+                    <span id="match-message"></span>
+                </label>
+
+                <label class="top">Email*
+                    <input type="email" name="email" title="Please enter a valid email address"
+                        pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" required>
+                </label>
+
+                <label>Page Rating
+                    <span id="rangevalue">1</span>
+                    <input type="range" id="rating" name="rating" min="1" max="10" value="1" step="1"
+                        list="rangevalues">
+                    <datalist id="rangevalues">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </datalist>
+                </label>
+
+                <div>
+                <input id="submit-btn" type="submit" value="Record My Information">
+            </div>
+            </fieldset>
+
+        </form>
+    </main>
+
+    <script src="scripts/form.js"></script>
+</body>
+
+</html>
