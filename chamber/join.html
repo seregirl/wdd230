@@ -23,49 +23,51 @@
     <h1>Benin Chamber of Commerce</h1>
     <nav>
       <button id="hamburger-menu" class="">☰</button>
-      <a href="index.html" class="active-menu"> Home </a>
+      <a href="index.html"> Home </a>
       <a href="discover.html"> Discover </a>
       <a href="discovery.html"> Discovery </a>
-      <a href="join.html"> Join </a>
+      <a href="join.html" class="active-menu"> Join </a>
     </nav>
   </header>
   <main id="join">
     <div>
-      <h2>Fill Form To Join</h2>
+      <h2>Membership Form</h2>
       <form method="get" action="thankyou.html">
         <fieldset>
           <legend>Applicant Information</legend>
-          <label>First Name*<input type="text" name="fname" id="first-name" required></label>
-          <label>Last Name*<input type="text" name="lname" id="last-name" required></label>
-          <label>Applicant Title/Position<input type="text" name="aposition" id="applicant-position"
+          <label>First Name*<input type="text" name="fname" id="fname" required></label>
+          <label>Last Name*<input type="text" name="lname" id="lname" required></label>
+          <label>Title/Position*<input type="text" name="title" id="title"
               pattern="[A-Za-z \-]{7,}"
               title="Must be alpha characters, hyphens, and spaces with a minimum of seven characters" required></label>
-          <label>Email* <input type="email" name="email" id="email-address" placeholder="eggfa@gmail.com"
+          <label>Email* <input type="email" name="email" id="email" placeholder="eggfa@gmail.com"
               required></label>
-          <label>Phone Number<input type="tel" name="phone" placeholder="12344526627"></label>
-          <label>Business/Organization's Name <input type="text" name="business-organization's-name"
-              id="business-organization's-name" required></label>
+          <label>Phone Number<input type="tel" name="phone" id="phone" placeholder="12344526627"></label>
+          <label>Business/Organization's Name <input type="text" name="bizname"
+              id="bizname" required></label>
           <label> Membership Level
             <select name="membership">
               <option value=""> Please Select</option>
-              <option value="np"> NP Membership is for non profit organizations and there is no fee</option>
-              <option value="bronze">Bronze Membershipl</option>
-              <option value="silver">Silver Membership</option>
-              <option value="gold">Gold Membership</option>
+              <option value="np"> NP Membership (Non Profit and Free)</option>
+              <option value="bronze">Bronze Membership ($3,000)</option>
+              <option value="silver">Silver Membership ($5,000)</option>
+              <option value="gold">Gold Membership ($8,000)</option>
             </select>
           </label>
-          <textarea id="description" name="description" rows="10">Business/Organization's Description</textarea>
+          <label>Business/Organization's Description
+            <textarea id="description" name="description" rows="10"></textarea>
+          </label>
           <input type="hidden" name="timestamp" id="timestamp" value="currentTime">
-          <input type="submit" value="Record My Application" class="submitBtn">
+          <input type="submit" value="Join Chamber of Commerce" class="submitBtn">
         </fieldset>
       </form>
     </div>
     <div id="benefits">
       <h2>Membership Benefits</h2>
-
       <section class="card">
         <h3>Non Profit (NP) Membership</h3>
         <ul>
+          <li>Fee: Free</li>
           <li>Mentorship Program to grow professionally</li>
           <li>Volunteer Opportunities</li>
           <li>Learning Resources</li>
@@ -75,6 +77,7 @@
       <section class="card">
         <h3>Bronze Membership</h3>
         <ul>
+          <li>Fee: $3,000</li>
           <li>Non-Industry Discounts</li>
           <li>Virtual and In-Person Events</li>
           <li>All benefits associated with NP membership</li>
@@ -84,6 +87,7 @@
       <section class="card">
         <h3>Silver Membership</h3>
         <ul>
+          <li>Fee: $5,000</li>
           <li>Member Awards</li>
           <li>All benefits associated with Bronze and NP memberships</li>
         </ul>
@@ -92,6 +96,7 @@
       <section class="card">
         <h3>Gold Membership</h3>
         <ul>
+          <li>Fee: $8,000</li>
           <li>Voting Rights</li>
           <li>All benefits associated with Silver, Bronze and NP memberships</li>
         </ul>
