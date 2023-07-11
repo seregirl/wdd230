@@ -1,0 +1,25 @@
+{
+    "familyName": "Mapopo",
+    "dateMovedIn": "23 June 2022",
+    "numberOfPeople": 3,
+    "visitedByBishopric": "Yes",
+    "familyMembers": [
+        {
+            "name" : "Evans Mapopo",
+            "gender" : "Male",
+            "birthday" : "14 03 1919"
+
+        },
+        {   "name" : "Osasere Mapopo",
+            "gender" : "Female",
+            "birthday" : "27 04 2022"
+        },
+        {
+            "name" : "Agatha Mapopo",
+            "gender" : "Feale",
+            "birthday" : "20 02 1992"
+        }
+    ]
+}
+
+
