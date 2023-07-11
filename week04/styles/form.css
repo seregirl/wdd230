@@ -6,4 +6,6 @@ form label {
 form input {
     padding: 8px;
     display: block;
+    border-radius: 10px;
+    
 }

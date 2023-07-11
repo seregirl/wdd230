@@ -136,7 +136,41 @@ section.card h3 {
     margin: 0;
   }
   
+  #join div {
+    padding: 10px;
+  }
+  #join h2 {
+    text-align: center;
+  }
+    
 
+ #join input, #join select, #join textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+ }
+
+ #join fieldset {
+  width: 100%;
+  padding: 20px 15px;
+  margin: 0 auto;
+  margin-top: -5px;
+  border-radius: 5px;
+  color:#0d0d35;
+  border-color: rgb(172, 11, 11);
+ }
+
+ #join fieldset input[type='submit'] {
+  background-color: #0d0d35;
+  color: #fff;
+ }
+
+ #join #benefits {
+  display: none;
+}
+
+  
 
 footer {
     text-align: center;
