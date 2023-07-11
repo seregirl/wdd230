@@ -11,13 +11,13 @@ function checkForm(e) {
         e.preventDefault();
 		matchMsg.textContent = "❗Passwords DO NOT MATCH!";
 		matchMsg.style.visibility = "show";
-		password2.style.color = "red";
-		password2.style.fontSize = "0.7rem";
+		matchMsg.style.color = "red";
+		matchMsg.style.fontSize = "0.7rem";
 		password2.value = "";
 		password2.focus();
 	} else {
 		matchMsg.style.display = "none";
-		password2.style.color = "#000";
+		matchMsg.style.color = "#000";
 	}
 }
 

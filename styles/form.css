@@ -1,0 +1,30 @@
+h2 {
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+form fieldset {
+    border-radius: 10px;
+    padding: 25px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    display: block;
+    border-radius: 7px;
+}
+
+form input[type='submit'] {
+    background-color: #0d0d35;
+    color: #ffffff;
+}

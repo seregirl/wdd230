@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="WDD 230 - Web Frontend Development - Agatha Odeh - course assignment portal">
+  <meta name="author" content="Agatha Odeh">
+
+  <meta property="og:title" content="Home-page portal">
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://github.com/seregirl/wdd230">
+  <meta property="og:image" content="https://favicon.ico">
+  <meta property="og.url" content="https://codepen.io/agatha-okofu/pen/ExOgxqX">
+  <title>Agatha Odeh- WDD 230 - Web Frontend Development</title>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <link rel="stylesheet" href="styles/form.css">
+  <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+  <header id="mode">
+    <img src="images/IMG_20220111_083506_502.jpg" alt="Agatha's Image" width="100" height="100">
+    <h1>Agatha Odeh</h1>
+  </header>
+  <nav>
+    <button id="hamburger-menu" class="">☰</button>
+    <a href="index.html">Home</a>
+    <a href="chamber/index.html">Chamber</a>
+    <a href="week01/chamber-site-plan.html">Site Plan</a>
+    <a class="active-page" href="form.html">Form</a>
+  </nav>
+  <main>
+    <h2>Application Form</h2>
+    <form method="get" action="record.html" onsubmit="return checkForm()">
+        <fieldset>
+            <legend>Applicant Information</legend>
+            <label class="top">Username*
+                <input type="text" name="username" id="username" required>
+            </label>
+            <label class="top">Password*
+                <input type="password" name="password" id="password" pattern="[A-Za-z0-9]{8,}" title="Must be at least eight (8) characters long and can only be alpha-numeric" required>
+                <span></span>
+            </label>
+
+            <label class="top">Password Repeat*
+                <input type="password" name="password2" id="password2" required>
+                <span id="match-message"></span>
+            </label>
+
+            <label class="top">Email*
+                <input type="email" name="email" title="Please enter a valid email address from the byui.edu domain"
+                    pattern="[a-zA-Z0-9._%\+\-]+@byui\.edu$" required>
+            </label>
+
+            <label>Page Rating
+                <span id="rangevalue">1</span>
+                <input type="range" id="rating" name="rating" min="1" max="10" value="1" step="1"
+                    list="rangevalues">
+                <datalist id="rangevalues">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+            </label>
+
+            <div>
+            <input id="submit-btn" type="submit" value="Record My Information">
+        </div>
+        </fieldset>
+
+    </form>
+</main>
+  <footer>
+    <p>&copy; <span id="copyright-year">2021</span> <span>Agatha Odeh </span><span>Nigeria</span> </p>
+    <p id="LastModified"> Last Modification: 01/01/2012</p>
+  </footer>
+  <script src="scripts/getDates.js"></script>
+  <script src="scripts/visits.js"></script>
+  <script src="scripts/toggleMenu.js"></script>
+  <script src="scripts/form.js"></script>
+</body>
+
+</html>
