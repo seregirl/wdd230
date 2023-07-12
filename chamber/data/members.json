@@ -1,0 +1,76 @@
+{
+    "members": [
+        {
+          "name": "Company 1 Ltd",
+          "address": "1 Amadasun Street, Elebor Commerce Area, Benin City",
+          "phone": "234 8162638755",
+          "website": "https://company1ltd.com",
+          "imageUrl": "images/1_download.webp",
+          "level": "Bronze Membership"
+        },
+        {
+          "name": "Company 2 Ltd",
+          "address":  "2 Amadasun Street, Elebor Commerce Area, Benin City",
+          "phone": "234 9062638789",
+          "website": "https://company2ltd.com",
+          "imageUrl": "images/2_download.webp",
+          "level": "Non Profit Membership"
+        },
+        {
+          "name": "Company 3 Ltd",
+          "address":  "3 Amadasun Street, Elebor Commerce Area, Benin City",
+          "phone": "234 9762638749",
+          "website": "https://company3ltd.com",
+          "imageUrl": "images/3_download.webp",
+          "level": "Silver Membership"
+        },
+        {
+          "name": "Company 4 Ltd",
+          "address": "4 Amadasun Street, Elebor Commerce Area, Benin City",
+          "phone": "234 9065248766",
+          "website": "https://company4ltd.com",
+          "imageUrl": "images/4_download.webp",
+          "level": "Silver Membership"
+        },
+        {
+          "name": "Company 5 Ltd",
+          "address":  "5 Amadasun Street, Elebor Commerce Area, Benin City",
+          "phone": "234 9062638730",
+          "website": "https://company5ltd.com",
+          "imageUrl": "images/5_download.webp",
+          "level": "Gold Membership"
+        },
+        {
+          "name": "Company 6 Ltd",
+          "address": "6 Amadasun Street, Elebor Commerce Area, Benin City",
+          "phone": "234 9062638342",
+          "website": "https://company6ltd.com",
+          "imageUrl": "images/6_images.webp",
+          "level": "Bronze Membership"
+        },
+        {
+          "name": "Company 7 Ltd",
+          "address": "7 Amadasun Street, Elebor Commerce Area, Benin City",
+          "phone": "234 9062638881",
+          "website": "https://company7ltd.com",
+          "imageUrl": "images/7_building.webp",
+          "level": "Gold Membership"
+        },
+        {
+          "name": "Company 8 Ltd",
+          "address": "8 Amadasun Street, Elebor Commerce Area, Benin City",
+          "phone": "234 9062630017",
+          "website": "https://company8ltd.com",
+          "imageUrl": "images/8_images.webp",
+          "level": "Bronze Membership"
+        },
+        {
+          "name": "Company 9 Ltd",
+          "address": "9 Amadasun Street, Elebor Commerce Area, Benin City",
+          "phone": "234 9062638754",
+          "website": "https://company9ltd.com",
+          "imageUrl": "images/1_download.webp",
+          "level": "Non Profit Membership"
+        }
+      ]
+}

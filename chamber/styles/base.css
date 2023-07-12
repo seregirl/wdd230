@@ -170,6 +170,95 @@ section.card h3 {
   display: none;
 }
 
+
+#layout-switch {
+  width: fit-content;
+  margin: 15px auto;
+}
+
+
+#members {
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#members h2 {
+  text-align: center;
+  border: none;
+  margin-bottom: 0;
+}
+
+#members h3 {
+  text-align: center;
+  font-size: 1rem;
+  margin: 0;
+}
+
+#members p {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+#members > section {
+  padding: 2rem;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+#members-info {
+  padding: 1rem;
+}
+
+#members-info > div {
+  margin: 0 20px;
+}
+
+#members h2, #members p {
+  margin: 0.3rem auto;
+}
+
+#members img {
+  margin-top: 15px;
+  box-shadow: 0 0 15px #333
+}
+
+#members.list {
+  grid-template-columns: 1fr;
+}
+
+#members.list > section {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  padding: 5px;
+}
+
+#members.list > section:nth-child(even) {
+  background-color: #fff;
+}
+
+#members.list img {
+  width: 120px;
+  height: 80px;
+}
+
+#members.list #members-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#members.list h2 {
+  font-size: 1.2rem;
+}
+
   
 
 footer {

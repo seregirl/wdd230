@@ -21,47 +21,21 @@
   <header class="head">
     <h1>Benin Chamber of Commerce</h1>
     <nav>
-      <button id="hamburger-menu" class="">☰</button>
-      <a href="index.html" class="active-menu"> Home </a>
+      <button id="hamburger-menu">☰</button>
+      <a href="index.html"> Home </a>
       <a href="discover.html"> Discover </a>
-      <a href="directory.html"> Directory </a>
+      <a href="directory.html" class="active-menu"> Directory </a>
       <a href="join.html"> Join </a>
     </nav>
   </header>
-  <main id="chamber-main">
-    <section id="hero-section">
-      <img src="images/chamber-of-commerce-building.webp" alt="Chamber of Commerce" width="100%">
-      <button>Join the Chamber</button>
-    </section>
-    <section class="card event">
-      <h3>Events</h3>
-      <div>
-        <p>Ribbon Cutting - The Diam and shack</p>
-      <p>Join us for the grand opening of the diamond shack, thursday at 1:00pm.</p>
-      </div>
-      
-    </section>
-    <section class="card">
-      <h3>Weather</h3>
-      <div>
-        <p>35 C <br> Partly Cloudy</p>
-      <p>Humidity: 35%</p>
-      <p>Wind: N/A</p>
-      </div>
-    </section>
-    <section class="card">
-      <h3>Thankful Transport</h3>
-      <div><h2>"We get it there for you"</h2></div>
-      
-    </section>
-    <section class="card">
-      <h3>Thankful Transport</h3>
-      <div><h2>"We get it there for you"</h2></div>
-    </section>
-    <section class="card">
-      <h3>Thankful Transport</h3>
-      <div><h2>"We get it there for you"</h2></div>
-    </section>
+  <main>
+    <div id="layout-switch">
+        <button class="grid-view active">⏹️Grid</button>
+        <button class="list-view">📄List</button></div>
+    
+    </div>
+    <hr>
+    <div id="members"></div>
   </main>
   <footer>
     <p>&copy; 2021 Benin Chamber Site Plan</p>
@@ -69,7 +43,7 @@
     <p>agathaokofulds@gmail.com - +23429428278 - <br> Location Map</p>
     <p id="LastModified"> Last Modification:</p>
   </footer>
-  <script src="scripts/toggleMenu.js"></script>
+  <script src="scripts/members.js"></script>
 </body>
 
 </html>
