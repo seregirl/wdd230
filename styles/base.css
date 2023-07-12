@@ -90,6 +90,12 @@
      padding: 5px;
  }
 
+ #weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
  footer {
      text-align: center;
      background-color: #0d0d35;
