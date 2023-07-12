@@ -1,0 +1,105 @@
+{
+    "weeks": [
+        {
+            "week": "Week 1",
+            "links": [
+                {
+                    "url": "week01/holygrail.html",
+                    "title": "Grail"
+                },
+                {
+                    "url": "week01/chamber-site-plan.html",
+                    "title": "Site Plan"
+                }
+            ]
+        },
+        {
+            "week": "Week 2",
+            "links": [
+                {
+                    "url": "week02/design.html",
+                    "title": "Design"
+                },
+                {
+                    "url": "#",
+                    "title": "Menu"
+                },
+                {
+                    "url": "week02/bom.html",
+                    "title": "BOM"
+                }
+            ]
+        },
+        {
+            "week": "Week 3",
+            "links": [
+                {
+                    "url": "week03/images/landscape.webp",
+                    "title": "WebP Image"
+                },
+                {
+                    "url": "week03/lazyload.html",
+                    "title": "Lazy Loading"
+                },
+                {
+                    "url": "#",
+                    "title": "Responsive Images"
+                },
+                {
+                    "url": "week03/week03bom.html",
+                    "title": "localStorage"
+                }
+            ]
+        },
+        {
+            "week": "Week 4",
+            "links": [
+                {
+                    "url": "https://codepen.io/agatha-okofu/pen/MWzvaBE",
+                    "title": "Pseudo-Classes"
+                },
+                {
+                    "url": "week04/images/Screenshot_exercise.png",
+                    "title": "CSS Combinators"
+                },
+                {
+                    "url": "week04/tablebuild.html",
+                    "title": "HTML Tables"
+                },
+                {
+                    "url": "week04/form-start/index.html",
+                    "title": "HTML Forms"
+                },
+                {
+                    "url": "form.html",
+                    "title": "Team Activity - Form"
+                },
+                {
+                    "url": "chamber/join.html",
+                    "title": "The Chamber Join Page"
+                }
+            ]
+        },
+        {
+            "week": "Week 5",
+            "links": [
+                {
+                    "url": "https://codepen.io/agatha-okofu/pen/dyQJNvR",
+                    "title": "Pseudo-Elements"
+                },
+                {
+                    "url": "week05/new-ward-members.json",
+                    "title": "JSON"
+                },
+                {
+                    "url": "week05/prophet.html",
+                    "title": "Fetch API"
+                },
+                {
+                    "url": "week05/weather.html",
+                    "title": "Weather API"
+                }
+            ]
+        }
+    ]
+}
