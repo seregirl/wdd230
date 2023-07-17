@@ -1,7 +1,6 @@
 const dataUrl = 'data/members.json';
 const memberCards = document.querySelector('#members');
 
-
 function displayMembers(members){
   members.forEach((member) => {
     const card = document.createElement('section');
@@ -35,8 +34,6 @@ function displayMembers(members){
   });
 }
 
-
-
 async function displaySpotlightMembers(){
   const response = await fetch(dataUrl);
   const data = await response.json();
@@ -48,13 +45,13 @@ async function displaySpotlightMembers(){
        return false;
      }
    })
+   
  
    const i = Math.floor(Math.random() * members.length);
    const member1 = members[i];
-   members.splice(i);
+   members.splice(i,1);
    const member2 = members[Math.floor(Math.random() * members.length)];
     displayMembers([member1, member2]);
  }
 
  displaySpotlightMembers();
-
