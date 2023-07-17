@@ -65,6 +65,14 @@ section.card h3 {
     margin-top: 0;
 }
 
+#spotlight {
+  margin-bottom: 20px;
+}
+
+#spotlight h2 {
+ text-align: center;
+}
+
 
 #discover-main #sidebar {
     width: 100%;

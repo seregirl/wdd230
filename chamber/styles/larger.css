@@ -30,6 +30,10 @@
         column-gap: 15px;
     }
 
+    #spotlight {
+        grid-column: 1/4;
+    }
+
     #discover-main {
         display: grid;
         grid-template-columns: 1fr 2fr;
