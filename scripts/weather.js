@@ -2,7 +2,7 @@ const weather = document.querySelector('#weather');
 
 const lat = 49.75;
 const lon = 6.64;
-const apiKey = "99fedeb9ab4dbde1f00c1d5fe29d45d0";
+const apiKey = "1e5deba6eaa6418a1b2a4113fe60a3ca";
 
 const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=imperial&appid=${apiKey}`;
 
